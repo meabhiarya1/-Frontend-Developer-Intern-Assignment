@@ -6,13 +6,15 @@ import { MdOutlineLocalOffer } from "react-icons/md";
 import { CiClock2 } from "react-icons/ci";
 import { CiBookmark } from "react-icons/ci";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 function App() {
   return (
     <>
-      <div>
+      <div className="flex">
         <div>
-          <div className="m-[2rem]">
+          <div className="m-[2rem] ">
             <div className="flex flex-row items-center ">
               <div style={{ margin: "10px 0px" }}>
                 <FaBagShopping
@@ -82,9 +84,93 @@ function App() {
               <p className="m-[8px] text-lg font-bold">Cart</p>
             </div>
           </div>
-          
         </div>
-        <div></div>
+
+        <div >
+          {/* location and search */}
+          <div className="flex">
+            {/* location */}
+            <div className="flex justify-between items-center mt-12 text-2xl bg-slate-100 h-[52px] w-[320px] p-3 rounded-full">
+              <div className="flex items-center">
+                <FaLocationDot
+                  className="text-lg"
+                  style={{ color: "#9B5DFF" }}
+                />
+                <div className="pl-[15px] text-slate-500 text-sm font-medium ">
+                  Deliver to: <span className="text-black">Noida, 201309</span>
+                </div>
+              </div>
+              <div>
+                <MdOutlineKeyboardArrowRight />
+              </div>
+            </div>
+
+            {/* search box */}
+            <div className="flex justify-between items-center mt-12 text-2xl bg-slate-100 h-[52px] w-[320px] p-3 rounded-full">
+              <div className="flex items-center">
+                <FaLocationDot
+                  className="text-lg"
+                  style={{ color: "#9B5DFF" }}
+                />
+                <div className="pl-[15px] text-slate-500 text-sm font-medium ">
+                  Deliver to: <span className="text-black">Noida, 201309</span>
+                </div>
+              </div>
+              <div>
+                <MdOutlineKeyboardArrowRight />
+              </div>
+            </div>
+          </div>
+
+          {/* grey box */}
+          <div></div>
+
+          {/* new , refurbished, flexibly */}
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          {/* category */}
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          {/* favorites */}
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          {/* top selling */}
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          {/* Brand */}
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          {/* Activites */}
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          {/* last div */}
+        </div>
+
         <div></div>
       </div>
     </>
