@@ -113,7 +113,7 @@ function App() {
                   className="text-xl text-black font-medium	"
                 />
                 <div>
-                  <input placeholder="Search for Product or Store " className="m-2 p-2 w-64 bg-slate-100 text-sm font-medium "></input>
+                  <input placeholder="Search for Product or Store" className="m-2 p-2 w-80 bg-slate-100 text-sm font-medium border-none"></input>
                 </div>
               </div>
             </div>
@@ -143,7 +143,7 @@ function App() {
               <div className="text-slate-500 p-4 font-medium mt-5 text-base w-48">Efficiency without Commitment</div>
             </div>
           </div>
-          
+
           {/* Browse by Category */}
           <div className="flex mt-4 items-center">
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#808080] w-56 h-[1px]"></div>
@@ -152,11 +152,27 @@ function App() {
           </div>
 
           {/* category */}
-          <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div className="flex">
+            <div className="flex flex-col items-center m-3 ml-5">
+              <img src="./public/assets/img1.png" className="rounded-xl w-[160px] h-[160px]" />
+              <p className="text-lg font-medium">Ultrasound Therapy</p>
+            </div>
+
+            <div className="flex flex-col items-center m-3">
+              <img src="./public/assets/img2.png" className="rounded-xl w-[160px] h-[160px]" />
+              <p className="text-lg font-medium">Electro Therapy</p>
+            </div>
+
+            <div className="flex flex-col items-center m-3">
+              <img src="./public/assets/img3.png" className="rounded-xl w-[160px] h-[160px]" />
+              <p className="text-lg font-medium">Electro Therapy</p>
+            </div>
+
+            <div className="flex flex-col items-center m-3">
+              <img src="./public/assets/img4.png" className="rounded-xl w-[160px] h-[160px]" />
+              <p className="text-lg font-medium">Electro Therapy</p>
+            </div>
+
           </div>
 
           {/* favorites */}
