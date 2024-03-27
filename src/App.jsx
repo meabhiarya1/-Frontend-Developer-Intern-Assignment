@@ -176,7 +176,7 @@ function App() {
           </div>
 
           {/* single line */}
-          <div className="w-[750px] h-[1px] text-[#CCCCCC] bg-slate-300 m-4"></div>
+          <div className="w-[700px] h-[1px] text-[#CCCCCC] bg-slate-300 m-4"></div>
 
           {/* Specialist Favorites */}
           <div className="flex mt-3 items-center">
