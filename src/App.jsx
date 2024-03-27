@@ -175,6 +175,16 @@ function App() {
 
           </div>
 
+          {/* single line */}
+          <div className="w-[750px] h-[1px] text-[#CCCCCC] bg-slate-300 m-4"></div>
+
+          {/* Specialist Favorites */}
+          <div className="flex mt-3 items-center">
+            <div className="bg-gradient-to-r from-[#FFFFFF] to-[#808080] w-56 h-[1px]"></div>
+            <div className="font-bold text-3xl m-3">Specialist Favorites</div>
+            <div className="bg-gradient-to-r from-[#808080] to-[#FFFFFF] w-56 h-[1px]"></div>
+          </div>
+
           {/* favorites */}
           <div>
             <div></div>
