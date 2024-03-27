@@ -8,6 +8,7 @@ import { CiBookmark } from "react-icons/ci";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { CiSearch } from "react-icons/ci";
 
 function App() {
   return (
@@ -106,24 +107,22 @@ function App() {
             </div>
 
             {/* search box */}
-            <div className="flex justify-between items-center mt-12 text-2xl bg-slate-100 h-[52px] w-[320px] p-3 rounded-full">
-              <div className="flex items-center">
-                <FaLocationDot
-                  className="text-lg"
-                  style={{ color: "#9B5DFF" }}
+            <div className="flex justify-between items-center mt-12 text-2xl bg-slate-100 h-[52px] w-[400px] p-3 rounded-xl ml-8">
+              <div className="flex items-center justify-center">
+                <CiSearch
+                  className="text-xl text-black font-medium	"
                 />
-                <div className="pl-[15px] text-slate-500 text-sm font-medium ">
-                  Deliver to: <span className="text-black">Noida, 201309</span>
+                <div>
+                  <input placeholder="Search for Product or Store " className="m-2 p-2 w-64 bg-slate-100 text-sm font-medium "></input>
                 </div>
-              </div>
-              <div>
-                <MdOutlineKeyboardArrowRight />
               </div>
             </div>
           </div>
 
           {/* grey box */}
-          <div></div>
+          <div>
+            <div className="bg-slate-200 w-full h-full"></div>
+          </div>
 
           {/* new , refurbished, flexibly */}
           <div>
