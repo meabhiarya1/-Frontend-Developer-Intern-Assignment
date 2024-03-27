@@ -143,6 +143,13 @@ function App() {
               <div className="text-slate-500 p-4 font-medium mt-5 text-base w-48">Efficiency without Commitment</div>
             </div>
           </div>
+          
+          {/* Browse by Category */}
+          <div className="flex mt-4 items-center">
+            <div className="bg-gradient-to-r from-[#FFFFFF] to-[#808080] w-56 h-[1px]"></div>
+            <div className="font-bold text-3xl m-3">Browse by Category</div>
+            <div className="bg-gradient-to-r from-[#808080] to-[#FFFFFF] w-56 h-[1px]"></div>
+          </div>
 
           {/* category */}
           <div>
