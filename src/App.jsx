@@ -121,14 +121,27 @@ function App() {
 
           {/* grey box */}
           <div>
-            <div className="bg-slate-200 w-full h-full"></div>
+            <div className="bg-[#CCCCCC] w-full h-56 border-black mt-8 rounded-xl"></div>
           </div>
 
           {/* new , refurbished, flexibly */}
-          <div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div className="flex mt-8 ">
+            <div className="bg-gradient-to-r from-[#E9ECFF] to-[#ABB8FF] rounded-xl w-56 h-44 ">
+              <div className="text-[#4562FF] font-bold text-2xl p-4 rounded-xl">Buy New</div>
+              <div className="text-slate-500 p-4 font-medium mt-5">Authorized and tested Equipment</div>
+            </div>
+
+            <div className="bg-gradient-to-r from-[#F9E9FF] to-[#EEABFF] rounded-xl w-56 h-44 ml-10">
+              <div className="text-[#CC00FF] p-4 font-bold text-2xl">Buy Refurbished</div>
+              <div className="text-slate-500 p-4 font-medium mt-5 text-base w-40">
+                Affordable yet Efficient
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-[#F0FFE9] to-[#D5FFAB] rounded-xl w-56 h-44 ml-10">
+              <div className="text-[#1B6700] p-4 font-bold text-2xl">Rent Flexibly</div>
+              <div className="text-slate-500 p-4 font-medium mt-5 text-base w-48">Efficiency without Commitment</div>
+            </div>
           </div>
 
           {/* category */}
