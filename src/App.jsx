@@ -10,6 +10,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 import { HiArrowRight } from "react-icons/hi";
+import { HiArrowCircleUp } from "react-icons/hi";
 
 function App() {
   return (
@@ -384,28 +385,65 @@ function App() {
           {/* Brand logo */}
           <div className="flex justify-between mt-6 ">
             <div className="w-[172.14px] h-[171px]">
-              <img src="./public/assets/img9.png" className="rounded-full shadow-xl" />
+              <img
+                src="./public/assets/img9.png"
+                className="rounded-full shadow-xl"
+              />
             </div>
             <div className="w-[172.14px] h-[171px]">
               {" "}
-              <img src="./public/assets/img10.png" className="rounded-full shadow-xl" />
+              <img
+                src="./public/assets/img10.png"
+                className="rounded-full shadow-xl"
+              />
             </div>
             <div className="w-[172.14px] h-[171px]">
               {" "}
-              <img src="./public/assets/img11.png" className="rounded-full shadow-xl" />
+              <img
+                src="./public/assets/img11.png"
+                className="rounded-full shadow-xl"
+              />
             </div>
             <div className="w-[172.14px] h-[171px]">
               {" "}
-              <img src="./public/assets/img12.png" className="rounded-full shadow-xl" />
+              <img
+                src="./public/assets/img12.png"
+                className="rounded-full shadow-xl"
+              />
             </div>
           </div>
 
-           {/* single line */}
-           <div className="w-[700px] h-[1px] text-[#CCCCCC] bg-slate-300 m-8"></div>
+          {/* single line */}
+          <div className="w-[700px] h-[1px] text-[#CCCCCC] bg-slate-300 m-8"></div>
+
+          {/* Popular activities */}
+          <div className="flex mt-3 items-center">
+            <div className="bg-gradient-to-r from-[#FFFFFF] to-[#808080] w-56 h-[1px]"></div>
+            <div className="font-[500] text-3xl m-3">Popular Activities</div>
+            <div className="bg-gradient-to-r from-[#808080] to-[#FFFFFF] w-56 h-[1px]"></div>
+          </div>
 
           {/* Activites */}
           <div>
-            <div></div>
+            <div className="h-[335px] w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8 ">
+              <div>
+                <div className="h-[260px] rounded-full">
+                  <img
+                    src="./public/assets/img13.jpg"
+                    className="object-cover h-full w-full p-4"
+                  />
+                </div>
+                <div className="flex justify-between m-3">
+                  <div>
+                    <div className="mb-1 font-medium text-xl">Sleep</div>
+                    <div className="text-slate-600">4 Items</div>
+                  </div>
+                  <div className="w-[48px] h-[45px] rounded-full bg-[#9B5DFF] mt-1">
+                    <HiArrowRight className="text-[white] w-[24px] h-[24px] m-[10px]" />
+                  </div>
+                </div>
+              </div>
+            </div>
             <div></div>
             <div></div>
           </div>
