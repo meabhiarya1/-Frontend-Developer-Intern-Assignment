@@ -374,13 +374,34 @@ function App() {
           {/* single line */}
           <div className="w-[700px] h-[1px] text-[#CCCCCC] bg-slate-300 m-8"></div>
 
-          {/* Brand */}
-          <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+          {/* Featured Brand */}
+          <div className="flex mt-3 items-center">
+            <div className="bg-gradient-to-r from-[#FFFFFF] to-[#808080] w-56 h-[1px]"></div>
+            <div className="font-[500] text-3xl m-3">Featured Brand</div>
+            <div className="bg-gradient-to-r from-[#808080] to-[#FFFFFF] w-56 h-[1px]"></div>
           </div>
+
+          {/* Brand logo */}
+          <div className="flex justify-between mt-6 ">
+            <div className="w-[172.14px] h-[171px]">
+              <img src="./public/assets/img9.png" className="rounded-full shadow-xl" />
+            </div>
+            <div className="w-[172.14px] h-[171px]">
+              {" "}
+              <img src="./public/assets/img10.png" className="rounded-full shadow-xl" />
+            </div>
+            <div className="w-[172.14px] h-[171px]">
+              {" "}
+              <img src="./public/assets/img11.png" className="rounded-full shadow-xl" />
+            </div>
+            <div className="w-[172.14px] h-[171px]">
+              {" "}
+              <img src="./public/assets/img12.png" className="rounded-full shadow-xl" />
+            </div>
+          </div>
+
+           {/* single line */}
+           <div className="w-[700px] h-[1px] text-[#CCCCCC] bg-slate-300 m-8"></div>
 
           {/* Activites */}
           <div>
