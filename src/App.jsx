@@ -10,18 +10,23 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 import { HiArrowRight } from "react-icons/hi";
-import { HiArrowCircleUp } from "react-icons/hi";
+import { RiCustomerService2Fill } from "react-icons/ri";
+import { HiOutlineArrowCircleRight } from "react-icons/hi";
+
+
 
 function App() {
   return (
     <>
-      <div className="flex">
-        <div>
+      <div className="flex mx-3">
+
+        {/* left sidebar */}
+        <div className="w-1/8">
           <div className="m-[2rem] ">
             <div className="flex flex-row items-center ">
               <div style={{ margin: "10px 0px" }}>
                 <FaBagShopping
-                  className="w-8 h-8 m-2"
+                  className="w-auto h-8 m-2"
                   style={{ color: "#9B5DFF" }}
                 />
               </div>
@@ -89,11 +94,13 @@ function App() {
           </div>
         </div>
 
-        <div>
+
+        {/* middle */}
+        <div className="w-2/3">
           {/* location and search */}
           <div className="flex">
             {/* location */}
-            <div className="flex justify-between items-center mt-12 text-2xl bg-slate-100 h-[52px] w-[320px] p-3 rounded-full">
+            <div className="flex justify-between items-center mt-12 text-xl bg-slate-100 w-1/3 h-[52px] p-3 rounded-full">
               <div className="flex items-center">
                 <FaLocationDot
                   className="text-lg"
@@ -109,13 +116,13 @@ function App() {
             </div>
 
             {/* search box */}
-            <div className="flex justify-between items-center mt-12 text-2xl bg-slate-100 h-[52px] w-[400px] p-3 rounded-xl ml-8">
+            <div className="flex justify-between items-center mt-12 text-2xl bg-slate-100 h-[52px] w-2/3 p-3 rounded-xl ml-8">
               <div className="flex items-center justify-center">
                 <CiSearch className="text-xl text-black font-medium	" />
                 <div>
                   <input
                     placeholder="Search for Product or Store"
-                    className="m-2 p-2 w-80 bg-slate-100 text-sm font-medium border-none"
+                    className="m-2 p-2 w-full bg-slate-100 text-sm font-medium border-none"
                   ></input>
                 </div>
               </div>
@@ -124,12 +131,13 @@ function App() {
 
           {/* grey box */}
           <div>
-            <div className="bg-[#CCCCCC] w-full h-56 border-black mt-8 rounded-xl"></div>
+            <div className="bg-[#CCCCCC] h-56 border-black mt-8 rounded-xl w-full"></div>
           </div>
 
-          {/* new , refurbished, flexibly */}
+          {/* buy new , refurbished, flexibly */}
           <div className="flex mt-8 ">
-            <div className="bg-gradient-to-r from-[#E9ECFF] to-[#ABB8FF] rounded-xl w-56 h-44 ">
+
+            <div className="bg-gradient-to-r from-[#E9ECFF] to-[#ABB8FF] rounded-xl w-1/3 h-44 ">
               <div className="text-[#4562FF] font-bold text-2xl p-4 rounded-xl">
                 Buy New
               </div>
@@ -138,7 +146,7 @@ function App() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-[#F9E9FF] to-[#EEABFF] rounded-xl w-56 h-44 ml-10">
+            <div className="bg-gradient-to-r from-[#F9E9FF] to-[#EEABFF] rounded-xl w-1/3 h-44 ml-5">
               <div className="text-[#CC00FF] p-3 font-bold text-[22px]">
                 Buy Refurbished
               </div>
@@ -147,7 +155,7 @@ function App() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-[#F0FFE9] to-[#D5FFAB] rounded-xl w-56 h-44 ml-10">
+            <div className="bg-gradient-to-r from-[#F0FFE9] to-[#D5FFAB] rounded-xl w-1/3 h-44 ml-5">
               <div className="text-[#1B6700] p-4 font-bold text-2xl">
                 Rent Flexibly
               </div>
@@ -210,7 +218,7 @@ function App() {
           </div>
 
           {/* favorites */}
-          <div className="flex justify-evenly">
+          <div className="flex justify-evenly overflow-x-auto overflow-y-hidden">
             <div className="h-[541px] w-[316px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8">
               <div>
                 <div className="h-[461px]">
@@ -302,14 +310,14 @@ function App() {
 
           {/* top selling component */}
           <div className="flex">
-            <div className="bg-[#F6F6F6] w-[240.67px] h-[405px] rounded-[12px] mr-8">
+            <div className="bg-[#F6F6F6] w-1/3 h-[405px] rounded-[12px] mr-8">
               <div className="h-[207px] p-3">
                 <img
                   src="./public/assets/img8.png"
                   className="object-cover h-full w-full rounded-[16px]"
                 />
               </div>
-              <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+              {/* <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
                 Knee Bandage
               </p>
               <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
@@ -317,7 +325,7 @@ function App() {
               </p>
               <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
                 ₹100 - ₹1,300
-              </p>
+              </p> */}
               <div className="flex justify-center">
                 <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
                   Explore
@@ -325,14 +333,14 @@ function App() {
               </div>
             </div>
 
-            <div className="bg-[#F6F6F6] w-[240.67px] h-[405px] rounded-[12px] mr-8">
+            <div className="bg-[#F6F6F6] w-1/3 h-[405px] rounded-[12px] mr-8">
               <div className="h-[207px] p-3">
                 <img
                   src="./public/assets/img8.png"
                   className="object-cover h-full w-full rounded-[16px]"
                 />
               </div>
-              <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+              {/* <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
                 Knee Bandage
               </p>
               <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
@@ -340,7 +348,7 @@ function App() {
               </p>
               <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
                 ₹100 - ₹1,300
-              </p>
+              </p> */}
               <div className="flex justify-center">
                 <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
                   Explore
@@ -348,14 +356,14 @@ function App() {
               </div>
             </div>
 
-            <div className="bg-[#F6F6F6] w-[240.67px] h-[405px] rounded-[12px] mr-8">
+            <div className="bg-[#F6F6F6] w-1/3 h-[405px] rounded-[12px] mr-8">
               <div className="h-[207px] p-3">
                 <img
                   src="./public/assets/img8.png"
                   className="object-cover h-full w-full rounded-[16px]"
                 />
               </div>
-              <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+              {/* <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
                 Knee Bandage
               </p>
               <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
@@ -363,7 +371,7 @@ function App() {
               </p>
               <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
                 ₹100 - ₹1,300
-              </p>
+              </p> */}
               <div className="flex justify-center">
                 <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
                   Explore
@@ -424,13 +432,13 @@ function App() {
           </div>
 
           {/* Activites */}
-          <div>
+          <div className="flex mb-[10rem]">
             <div className="h-[335px] w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8 ">
               <div>
-                <div className="h-[260px] rounded-full">
+                <div className="h-[260px]">
                   <img
                     src="./public/assets/img13.jpg"
-                    className="object-cover h-full w-full p-4"
+                    className="rounded-lg object-cover h-full w-full p-4 "
                   />
                 </div>
                 <div className="flex justify-between m-3">
@@ -444,13 +452,72 @@ function App() {
                 </div>
               </div>
             </div>
-            <div></div>
-            <div></div>
+            <div className="h-[335px] w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8 ">
+              <div>
+                <div className="h-[260px]">
+                  <img
+                    src="./public/assets/img13.jpg"
+                    className="rounded-lg object-cover h-full w-full p-4 "
+                  />
+                </div>
+                <div className="flex justify-between m-3">
+                  <div>
+                    <div className="mb-1 font-medium text-xl">Sleep</div>
+                    <div className="text-slate-600">4 Items</div>
+                  </div>
+                  <div className="w-[48px] h-[45px] rounded-full bg-[#9B5DFF] mt-1">
+                    <HiArrowRight className="text-[white] w-[24px] h-[24px] m-[10px]" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="h-[335px] w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8 ">
+              <div>
+                <div className="h-[260px]">
+                  <img
+                    src="./public/assets/img13.jpg"
+                    className="rounded-lg object-cover h-full w-full p-4 "
+                  />
+                </div>
+                <div className="flex justify-between m-3">
+                  <div>
+                    <div className="mb-1 font-medium text-xl">Sleep</div>
+                    <div className="text-slate-600">4 Items</div>
+                  </div>
+                  <div className="w-[48px] h-[45px] rounded-full bg-[#9B5DFF] mt-1">
+                    <HiArrowRight className="text-[white] w-[24px] h-[24px] m-[10px]" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
           {/* last div */}
         </div>
 
-        <div></div>
+
+        {/* right sidebar */}
+        <div className="flex w-1/6">
+          <div className=" flex flex-col ">
+
+            <div className=" mt-[3rem] flex justify-end">
+              <img src="/assets/img15.png" className="rounded-full w-[56px] h-[56px]" />
+            </div>
+
+            <div className="w-full h-[52px] border-[#CCCCCC] border-[1px] rounded-[16px] flex items-center justify-between my-7 ml-2">
+              <div className="flex items-center ">
+                <RiCustomerService2Fill className="w-[24px] h-[24px] text-[#9B5DFF] m-3" />
+                <div className="w-[95px] h-[24px] text-[#9B5DFF] font-medium">
+                  Help Center
+                </div>
+              </div>
+              <div><HiOutlineArrowCircleRight className="size-[24px] text-[#9B5DFF] mr-2" /></div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </>
   );
