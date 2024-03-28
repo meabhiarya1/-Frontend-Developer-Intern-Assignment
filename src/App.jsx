@@ -293,11 +293,86 @@ function App() {
           </div>
 
           {/* top selling */}
-          <div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div className="flex mt-3 items-center">
+            <div className="bg-gradient-to-r from-[#FFFFFF] to-[#808080] w-56 h-[1px]"></div>
+            <div className="font-[500] text-3xl m-3">Top Selling</div>
+            <div className="bg-gradient-to-r from-[#808080] to-[#FFFFFF] w-56 h-[1px]"></div>
           </div>
+
+          {/* top selling component */}
+          <div className="flex">
+            <div className="bg-[#F6F6F6] w-[240.67px] h-[405px] rounded-[12px] mr-8">
+              <div className="h-[207px] p-3">
+                <img
+                  src="./public/assets/img8.png"
+                  className="object-cover h-full w-full rounded-[16px]"
+                />
+              </div>
+              <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+                Knee Bandage
+              </p>
+              <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
+                Starts from
+              </p>
+              <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
+                ₹100 - ₹1,300
+              </p>
+              <div className="flex justify-center">
+                <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
+                  Explore
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-[#F6F6F6] w-[240.67px] h-[405px] rounded-[12px] mr-8">
+              <div className="h-[207px] p-3">
+                <img
+                  src="./public/assets/img8.png"
+                  className="object-cover h-full w-full rounded-[16px]"
+                />
+              </div>
+              <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+                Knee Bandage
+              </p>
+              <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
+                Starts from
+              </p>
+              <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
+                ₹100 - ₹1,300
+              </p>
+              <div className="flex justify-center">
+                <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
+                  Explore
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-[#F6F6F6] w-[240.67px] h-[405px] rounded-[12px] mr-8">
+              <div className="h-[207px] p-3">
+                <img
+                  src="./public/assets/img8.png"
+                  className="object-cover h-full w-full rounded-[16px]"
+                />
+              </div>
+              <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+                Knee Bandage
+              </p>
+              <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
+                Starts from
+              </p>
+              <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
+                ₹100 - ₹1,300
+              </p>
+              <div className="flex justify-center">
+                <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
+                  Explore
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* single line */}
+          <div className="w-[700px] h-[1px] text-[#CCCCCC] bg-slate-300 m-8"></div>
 
           {/* Brand */}
           <div>
