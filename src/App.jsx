@@ -9,6 +9,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
+import { HiArrowRight } from "react-icons/hi";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
                 className="flex font-bold text-3xl"
                 style={{ color: "#9B5DFF" }}
               >
-                <h3 className="my-4">shop</h3>
+                <h3 className="my-4 text-2xl">shop</h3>
                 <div className="border-r-2 mx-2 h-16 border-black"></div>
               </div>
 
@@ -87,7 +88,7 @@ function App() {
           </div>
         </div>
 
-        <div >
+        <div>
           {/* location and search */}
           <div className="flex">
             {/* location */}
@@ -109,11 +110,12 @@ function App() {
             {/* search box */}
             <div className="flex justify-between items-center mt-12 text-2xl bg-slate-100 h-[52px] w-[400px] p-3 rounded-xl ml-8">
               <div className="flex items-center justify-center">
-                <CiSearch
-                  className="text-xl text-black font-medium	"
-                />
+                <CiSearch className="text-xl text-black font-medium	" />
                 <div>
-                  <input placeholder="Search for Product or Store" className="m-2 p-2 w-80 bg-slate-100 text-sm font-medium border-none"></input>
+                  <input
+                    placeholder="Search for Product or Store"
+                    className="m-2 p-2 w-80 bg-slate-100 text-sm font-medium border-none"
+                  ></input>
                 </div>
               </div>
             </div>
@@ -127,20 +129,30 @@ function App() {
           {/* new , refurbished, flexibly */}
           <div className="flex mt-8 ">
             <div className="bg-gradient-to-r from-[#E9ECFF] to-[#ABB8FF] rounded-xl w-56 h-44 ">
-              <div className="text-[#4562FF] font-bold text-2xl p-4 rounded-xl">Buy New</div>
-              <div className="text-slate-500 p-4 font-medium mt-5">Authorized and tested Equipment</div>
+              <div className="text-[#4562FF] font-bold text-2xl p-4 rounded-xl">
+                Buy New
+              </div>
+              <div className="text-slate-500 p-4 font-medium mt-5">
+                Authorized and tested Equipment
+              </div>
             </div>
 
             <div className="bg-gradient-to-r from-[#F9E9FF] to-[#EEABFF] rounded-xl w-56 h-44 ml-10">
-              <div className="text-[#CC00FF] p-4 font-bold text-2xl">Buy Refurbished</div>
-              <div className="text-slate-500 p-4 font-medium mt-5 text-base w-40">
+              <div className="text-[#CC00FF] p-3 font-bold text-[22px]">
+                Buy Refurbished
+              </div>
+              <div className="text-slate-500 p-3 font-medium text-base w-40 mt-8">
                 Affordable yet Efficient
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-[#F0FFE9] to-[#D5FFAB] rounded-xl w-56 h-44 ml-10">
-              <div className="text-[#1B6700] p-4 font-bold text-2xl">Rent Flexibly</div>
-              <div className="text-slate-500 p-4 font-medium mt-5 text-base w-48">Efficiency without Commitment</div>
+              <div className="text-[#1B6700] p-4 font-bold text-2xl">
+                Rent Flexibly
+              </div>
+              <div className="text-slate-500 p-4 font-medium mt-5 text-base w-48">
+                Efficiency without Commitment
+              </div>
             </div>
           </div>
 
@@ -154,25 +166,36 @@ function App() {
           {/* category */}
           <div className="flex">
             <div className="flex flex-col items-center m-3 ml-5">
-              <img src="./public/assets/img1.png" className="rounded-xl w-[160px] h-[160px]" />
+              <img
+                src="./public/assets/img1.png"
+                className="rounded-xl w-[160px] h-[160px]"
+              />
               <p className="text-lg font-medium">Ultrasound Therapy</p>
             </div>
 
             <div className="flex flex-col items-center m-3">
-              <img src="./public/assets/img2.png" className="rounded-xl w-[160px] h-[160px]" />
+              <img
+                src="./public/assets/img2.png"
+                className="rounded-xl w-[160px] h-[160px]"
+              />
               <p className="text-lg font-medium">Electro Therapy</p>
             </div>
 
             <div className="flex flex-col items-center m-3">
-              <img src="./public/assets/img3.png" className="rounded-xl w-[160px] h-[160px]" />
+              <img
+                src="./public/assets/img3.png"
+                className="rounded-xl w-[160px] h-[160px]"
+              />
               <p className="text-lg font-medium">Electro Therapy</p>
             </div>
 
             <div className="flex flex-col items-center m-3">
-              <img src="./public/assets/img4.png" className="rounded-xl w-[160px] h-[160px]" />
+              <img
+                src="./public/assets/img4.png"
+                className="rounded-xl w-[160px] h-[160px]"
+              />
               <p className="text-lg font-medium">Electro Therapy</p>
             </div>
-
           </div>
 
           {/* single line */}
@@ -186,10 +209,87 @@ function App() {
           </div>
 
           {/* favorites */}
-          <div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div className="flex justify-evenly">
+            <div className="h-[541px] w-[316px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8">
+              <div>
+                <div className="h-[461px]">
+                  <img
+                    src="./public/assets/img5.png"
+                    className="object-cover h-full w-full rounded-[16px]"
+                  />
+                  <div className="flex justify-between m-3">
+                    <div>
+                      <div className="mb-2 font-medium text-lg">
+                        Gym Equipments
+                      </div>
+                      <div className="text-slate-500">
+                        Starting at
+                        <span className="text-[#9B5DFF] m-1 font-medium">
+                          ₹300
+                        </span>
+                      </div>
+                    </div>
+                    <div className="w-[48px] h-[45px] rounded-full bg-[#9B5DFF] mt-2">
+                      <HiArrowRight className="text-[white] w-[24px] h-[24px] m-[10px]" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="h-[541px] w-[316px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8">
+              <div>
+                <div className="h-[461px]">
+                  <img
+                    src="./public/assets/img6.png"
+                    className="object-cover h-full w-full rounded-[16px]"
+                  />
+                  <div className="flex justify-between m-3">
+                    <div>
+                      <div className="mb-2 font-medium text-lg">
+                        Gym Equipments
+                      </div>
+                      <div className="text-slate-500">
+                        Starting at
+                        <span className="text-[#9B5DFF] m-1 font-medium">
+                          ₹300
+                        </span>
+                      </div>
+                    </div>
+                    <div className="w-[48px] h-[45px] rounded-full bg-[#9B5DFF] mt-2">
+                      <HiArrowRight className="text-[white] w-[24px] h-[24px] m-[10px]" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="h-[541px] w-[316px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8">
+              <div>
+                <div className="h-[461px]">
+                  <img
+                    src="./public/assets/img7.png"
+                    className="object-cover h-full w-full rounded-[16px]"
+                  />
+                  <div className="flex justify-between m-3">
+                    <div>
+                      <div className="mb-2 font-medium text-lg">
+                        Gym Equipments
+                      </div>
+                      <div className="text-slate-500">
+                        Starting at
+                        <span className="text-[#9B5DFF] m-1 font-medium">
+                          ₹300
+                        </span>
+                      </div>
+                    </div>
+                    <div className="w-[48px] h-[45px] rounded-full bg-[#9B5DFF] mt-2">
+                      <HiArrowRight className="text-[white] w-[24px] h-[24px] m-[10px]" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* top selling */}
