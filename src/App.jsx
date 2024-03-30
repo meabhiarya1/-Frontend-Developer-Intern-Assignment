@@ -367,7 +367,7 @@ const App = () => {
 
 
           {/* single line */}
-          {/* <div className="w-full h-[1px] text-[#CCCCCC] bg-slate-300 m-4"></div> */}
+          <div className="w-full h-[1px] text-[#CCCCCC] bg-slate-300 my-4"></div>
 
           {/* top selling */}
           <div className="flex mt-3 items-center w-full ">
@@ -378,70 +378,70 @@ const App = () => {
 
           {/* top selling component */}
           <div className="flex overflow-x-auto overflow-y-hidden">
-            <div className="bg-[#F6F6F6] w-1/3 h-auto rounded-[12px] mr-8">
+            <div className="bg-[#F6F6F6] w-1/3 h-auto rounded-[12px] mx-4">
               <div className="h-auto p-3">
                 <img
-                  src="./public/assets/img8.png"
-                  className="object-cover h-auto w-full rounded-[16px]"
+                  src="./assets/img8.png"
+                  className="object-cover h-44 md:h-auto w-full rounded-[16px]"
                 />
               </div>
-              {/* <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+              <p className="w-[120px] md:w-[139px] h-[24px] font-[600] md:text-lg text-[1rem] m-3">
                 Knee Bandage
               </p>
               <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
                 Starts from
               </p>
-              <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
+              <p className="w-[155px] h-[30px] font-[500] text-lg md:text-2xl m-3">
                 ₹100 - ₹1,300
-              </p> */}
+              </p>
               <div className="flex justify-center">
-                <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
+                <button className="border border-[#9B5DFF] w-[217px] p-[8px] md:p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-lg md:text-2xl my-2">
                   Explore
                 </button>
               </div>
             </div>
 
-            <div className="bg-[#F6F6F6] w-1/3 h-auto rounded-[12px] mr-8">
+            <div className="bg-[#F6F6F6] w-1/3 h-auto rounded-[12px] mx-4">
               <div className="h-auto p-3">
                 <img
-                  src="./public/assets/img8.png"
-                  className="object-cover h-full w-full rounded-[16px]"
+                  src="./assets/img8.png"
+                  className="object-cover h-44 md:h-auto w-full rounded-[16px]"
                 />
               </div>
-              {/* <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+              <p className="w-[120px] md:w-[139px] h-[24px] font-[600] md:text-lg text-[1rem] m-3">
                 Knee Bandage
               </p>
               <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
                 Starts from
               </p>
-              <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
+              <p className="w-[155px] h-[30px] font-[500] text-lg md:text-2xl m-3">
                 ₹100 - ₹1,300
-              </p> */}
+              </p>
               <div className="flex justify-center">
-                <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
+                <button className="border border-[#9B5DFF] w-[217px] p-[8px] md:p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-lg md:text-2xl my-2">
                   Explore
                 </button>
               </div>
             </div>
 
-            <div className="bg-[#F6F6F6] w-1/3 h-auto rounded-[12px] mr-8">
+            <div className="bg-[#F6F6F6] w-1/3 h-auto rounded-[12px] mx-4">
               <div className="h-auto p-3">
                 <img
-                  src="./public/assets/img8.png"
-                  className="object-cover h-full w-full rounded-[16px]"
+                  src="./assets/img8.png"
+                  className="object-cover h-44 md:h-auto w-full rounded-[16px]"
                 />
               </div>
-              {/* <p className="w-[139px] h-[24px] font-[600] text-lg m-3">
+              <p className="w-[120px] md:w-[139px] h-[24px] font-[600] md:text-lg text-[1rem] m-3">
                 Knee Bandage
               </p>
               <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
                 Starts from
               </p>
-              <p className="w-[155px] h-[30px] font-[500] text-2xl m-3">
+              <p className="w-[155px] h-[30px] font-[500] text-lg md:text-2xl m-3">
                 ₹100 - ₹1,300
-              </p> */}
+              </p>
               <div className="flex justify-center">
-                <button className="border border-[#9B5DFF] w-[217px] p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-2xl">
+                <button className="border border-[#9B5DFF] w-[217px] p-[8px] md:p-[12px] rounded-[8px] text-[#9B5DFF] font-medium text-lg md:text-2xl my-2">
                   Explore
                 </button>
               </div>
@@ -449,7 +449,7 @@ const App = () => {
           </div>
 
           {/* single line */}
-          {/* <div className="w-full h-[1px] text-[#CCCCCC] bg-slate-300 m-8"></div> */}
+          <div className="w-full h-[1px] text-[#CCCCCC] bg-slate-300 my-8"></div>
 
           {/* Featured Brand */}
           <div className="flex mt-3 items-center w-full overflow-x-auto overflow-y-hidden">
@@ -459,38 +459,38 @@ const App = () => {
           </div>
 
           {/* Brand logo */}
-          <div className="flex justify-between gap-x-1 mt-6 w- overflow-x-auto overflow-y-hidden">
-            <div className="w-[172.14px] h-[171px]">
+          <div className="flex justify-between items-center gap-x-1 my-6 w- overflow-x-auto overflow-y-hidden">
+            <div className="w-[172.14px] h-[171px] mx-1">
               <img
-                src="./public/assets/img9.png"
-                className="rounded-full shadow-xl"
+                src="/assets/img9.png"
+                className="rounded-full shadow-2xl"
               />
             </div>
-            <div className="w-[172.14px] h-[171px]">
+            <div className="w-[172.14px] h-[171px] mx-1">
               {" "}
               <img
-                src="./public/assets/img10.png"
-                className="rounded-full shadow-xl"
+                src="/assets/img10.png"
+                className="rounded-full shadow-2xl"
               />
             </div>
-            <div className="w-[172.14px] h-[171px]">
+            <div className="w-[172.14px] h-[171px] mx-1">
               {" "}
               <img
-                src="./public/assets/img11.png"
-                className="rounded-full shadow-xl"
+                src="/assets/img11.png"
+                className="rounded-full shadow-2xl"
               />
             </div>
-            <div className="w-[172.14px] h-[171px]">
+            <div className="w-[172.14px] h-[171px] mx-1">
               {" "}
               <img
-                src="./public/assets/img12.png"
-                className="rounded-full shadow-xl"
+                src="/assets/img12.png"
+                className="rounded-full shadow-2xl"
               />
             </div>
           </div>
 
           {/* single line */}
-          {/* <div className="w-full h-[1px] text-[#CCCCCC] bg-slate-300 m-8"></div> */}
+          <div className="w-full h-[1px] text-[#CCCCCC] bg-slate-300 my-8"></div>
 
           {/* Popular activities */}
           <div className="flex mt-3 items-center w-full overflow-x-auto overflow-y-hidden">
@@ -501,31 +501,13 @@ const App = () => {
 
           {/* Activites */}
           <div className="flex mb-[10rem] justify-between overflow-x-auto overflow-y-hidden">
-            <div className="h-auto w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8 ">
+
+            <div className="h-[350px] md:h-auto w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mx-4 ">
               <div>
                 <div className="h-[260px]">
                   <img
                     src="./public/assets/img13.jpg"
-                    className="rounded-lg object-cover h-full w-full p-4 "
-                  />
-                </div>
-                <div className="flex justify-between m-3">
-                  <div>
-                    <div className="mb-1 font-medium text-xl">Sleep</div>
-                    <div className="text-slate-600">4 Items</div>
-                  </div>
-                  <div className="w-[48px] h-[45px] rounded-full bg-[#9B5DFF] mt-1">
-                    <HiArrowRight className="text-[white] w-[24px] h-[24px] m-[10px]" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="h-auto w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8 ">
-              <div>
-                <div className="h-[260px]">
-                  <img
-                    src="./public/assets/img13.jpg"
-                    className="rounded-lg object-cover h-full w-full p-4 "
+                    className="rounded-xl object-cover h-48 md:h-full w-full p-4 "
                   />
                 </div>
                 <div className="flex justify-between m-3">
@@ -540,12 +522,32 @@ const App = () => {
               </div>
             </div>
 
-            <div className="h-[auto] w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mr-8 ">
+            <div className="h-[350px] md:h-auto w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mx-4 ">
               <div>
                 <div className="h-[260px]">
                   <img
                     src="./public/assets/img13.jpg"
-                    className="rounded-lg object-cover h-full w-full p-4 "
+                    className="rounded-xl object-cover h-48 md:h-full w-full p-4 "
+                  />
+                </div>
+                <div className="flex justify-between m-3">
+                  <div>
+                    <div className="mb-1 font-medium text-xl">Sleep</div>
+                    <div className="text-slate-600">4 Items</div>
+                  </div>
+                  <div className="w-[48px] h-[45px] rounded-full bg-[#9B5DFF] mt-1">
+                    <HiArrowRight className="text-[white] w-[24px] h-[24px] m-[10px]" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="h-[350px] md:h-auto w-[259px] bg-[#F6F6F6] mt-4 rounded-[16px] mx-4 ">
+              <div>
+                <div className="h-[260px]">
+                  <img
+                    src="./public/assets/img13.jpg"
+                    className="rounded-xl object-cover h-48 md:h-full w-full p-4 "
                   />
                 </div>
                 <div className="flex justify-between m-3">
