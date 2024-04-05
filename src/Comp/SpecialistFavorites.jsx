@@ -19,7 +19,7 @@ const SpecialistFavorites = () => {
                     <div>
                         <div className="md:h-[350px] h-[300px]">
                             <img
-                                src="./public/assets/img5.png"
+                                src="/assets/img5.png"
                                 className="object-cover h-full w-full rounded-[16px]"
                             />
                             <div className="flex justify-between m-3">
