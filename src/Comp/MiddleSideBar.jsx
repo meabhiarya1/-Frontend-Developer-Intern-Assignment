@@ -52,8 +52,8 @@ const MiddleSideBar = () => {
 
             {/* buy new , refurbished, flexibly */}
             <div className="flex mt-4 md:mt-8 overflow-x-auto ">
-                <div className="bg-gradient-to-r from-[#E9ECFF] to-[#ABB8FF] rounded-xl w-1/3 h-auto text-center mx-1">
-                    <div className="text-[#4562FF] font-bold md:text-2xl text-xs p-2 md:p-4 rounded-xl">
+                <div className="bg-gradient-to-r from-[#E9ECFF] to-[#ABB8FF] rounded-xl w-1/3 h-auto text-center">
+                    <div className="text-[#4562FF] font-bold md:text-xl text-xs p-2 md:p-4 rounded-xl">
                         Buy New
                     </div>
                     <div className="text-slate-500 p-2 md:p-4 font-medium md:mt-5 text-[.8rem]">
@@ -62,16 +62,16 @@ const MiddleSideBar = () => {
                 </div>
 
                 <div className="bg-gradient-to-r from-[#F9E9FF] to-[#EEABFF] rounded-xl w-1/3 h-auto mx-1 text-center">
-                    <div className="text-[#CC00FF] font-bold md:text-2xl text-xs p-2 md:p-4 rounded-xl">
+                    <div className="text-[#CC00FF] font-bold md:text-2xl text-xs p-2 md:p-4 rounded-xl md:text-xl text-xs">
                         Buy Refurbished
                     </div>
-                    <div className="text-slate-500 p-2 md:p-4 font-medium md:mt-5 text-[.8rem]">
+                    <div className="text-slate-500 p-1 md:p-3 font-medium md:mt-5 text-[.8rem] p-4">
                         Affordable yet Efficient
                     </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-[#F0FFE9] to-[#D5FFAB] rounded-xl w-1/3 h-auto mx- text-center">
-                    <div className="text-[#1B6700] font-bold md:text-2xl text-[11px] p-2 md:p-4 rounded-xl">
+                    <div className="text-[#1B6700] font-bold md:text-xl text-xs text-[11px] p-2 md:p-4 rounded-xl">
                         Rent Flexibly
                     </div>
                     <div className="text-slate-500 p-2 md:p-4 font-medium md:mt-5 text-[.8rem]">
@@ -146,13 +146,13 @@ const MiddleSideBar = () => {
                             className="object-cover h-44 md:h-auto w-full rounded-[16px]"
                         />
                     </div>
-                    <p className="w-[120px] md:w-[139px] h-[24px] font-[600] md:text-lg text-[1rem] m-3">
+                    <p className="w-[100px] md:w-[139px] h-[24px] font-[600] md:text-lg text-xs mx-3 my-2">
                         Knee Bandage
                     </p>
-                    <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
+                    <p className="w-[100px] h-[24px] font-[400] text-xs mx-3">
                         Starts from
                     </p>
-                    <p className="w-[155px] h-[30px] font-[500] text-lg md:text-2xl m-3">
+                    <p className="w-[100px] h-[30px] sm:font-[800] text-xs md:text-xl mx-3">
                         ₹100 - ₹1,300
                     </p>
                     <div className="flex justify-center">
@@ -169,13 +169,13 @@ const MiddleSideBar = () => {
                             className="object-cover h-44 md:h-auto w-full rounded-[16px]"
                         />
                     </div>
-                    <p className="w-[120px] md:w-[139px] h-[24px] font-[600] md:text-lg text-[1rem] m-3">
+                    <p className="w-[100px] md:w-[139px] h-[24px] font-[600] md:text-lg text-xs mx-3 my-2">
                         Knee Bandage
                     </p>
-                    <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
+                    <p className="w-[100px] h-[24px] font-[400] text-xs mx-3">
                         Starts from
                     </p>
-                    <p className="w-[155px] h-[30px] font-[500] text-lg md:text-2xl m-3">
+                    <p className="w-[100px] h-[30px] sm:font-[800] text-xs md:text-xl mx-3">
                         ₹100 - ₹1,300
                     </p>
                     <div className="flex justify-center">
@@ -192,13 +192,13 @@ const MiddleSideBar = () => {
                             className="object-cover h-44 md:h-auto w-full rounded-[16px]"
                         />
                     </div>
-                    <p className="w-[120px] md:w-[139px] h-[24px] font-[600] md:text-lg text-[1rem] m-3">
+                    <p className="w-[100px] md:w-[139px] h-[24px] font-[600] md:text-lg text-xs mx-3 my-2">
                         Knee Bandage
                     </p>
-                    <p className="w-[139px] h-[24px] font-[400] text-lg m-3">
+                    <p className="w-[100px] h-[24px] font-[400] text-xs mx-3">
                         Starts from
                     </p>
-                    <p className="w-[155px] h-[30px] font-[500] text-lg md:text-2xl m-3">
+                    <p className="w-[100px] h-[30px] sm:font-[800] text-xs md:text-xl mx-3">
                         ₹100 - ₹1,300
                     </p>
                     <div className="flex justify-center">
@@ -220,28 +220,28 @@ const MiddleSideBar = () => {
             </div>
 
             {/* Brand logo */}
-            <div className="flex justify-between items-center gap-x-1 my-6 w- overflow-x-auto overflow-y-hidden">
-                <div className="w-[172.14px] h-[171px] mx-1">
+            <div className="flex justify-between items-center gap-x-1 my-3 sm:my-6 overflow-x-auto overflow-y-hidden">
+                <div className="w-[172.14px] h-auto mx-1">
                     <img
                         src="/assets/img9.png"
-                        className="rounded-full shadow-2xl"
+                        className="rounded-full shadow-2xl rounded-full "
                     />
                 </div>
-                <div className="w-[172.14px] h-[171px] mx-1">
+                <div className="w-[172.14px] h-auto mx-1">
                     {" "}
                     <img
                         src="/assets/img10.png"
                         className="rounded-full shadow-2xl"
                     />
                 </div>
-                <div className="w-[172.14px] h-[171px] mx-1">
+                <div className="w-[172.14px] h-auto mx-1">
                     {" "}
                     <img
                         src="/assets/img11.png"
                         className="rounded-full shadow-2xl"
                     />
                 </div>
-                <div className="w-[172.14px] h-[171px] mx-1">
+                <div className="w-[172.14px] h-auto mx-1">
                     {" "}
                     <img
                         src="/assets/img12.png"
@@ -260,13 +260,11 @@ const MiddleSideBar = () => {
                 <div className="bg-gradient-to-r from-[#808080] to-[#FFFFFF] flex-1 h-[1px]"></div>
             </div>
 
-            {/* Activites */}
             <Activites />
-
             {/* last div */}
         </div>
 
     )
 }
 
-export default MiddleSideBar
+export default MiddleSideBar;
