@@ -10,9 +10,9 @@ const App = () => {
     <>
       <div
         style={{
-          width: "95vw",
+          width: "100vw",
           display: "flex",
-          justifyContent: "space-evenly",
+          justifyContent: "space-around",
           overflowX: "hidden"
         }}
       >
