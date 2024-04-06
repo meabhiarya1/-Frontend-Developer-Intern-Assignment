@@ -2,9 +2,7 @@ import React from 'react';
 import { FaBagShopping } from "react-icons/fa6";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
-import LocationAndSearch from "./LocationAndSearch";
-import SpecialistFavorites from "./SpecialistFavorites";
-import Activites from "./Activites";
+
 
 const MiddleSideBar = () => {
     return (
